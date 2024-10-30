@@ -1,0 +1,301 @@
+   
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.headerTop {
+	width: 100%;
+	height: 74px;
+	background: whitesmoke;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+
+    
+}
+.header {				
+	display:inline-flex;
+	margin-left: 512px;
+	letter-spacing: 13px;
+	font-size:19px;
+	cursor: pointer;
+	
+
+
+	
+}
+.menu  a:hover{
+	color: #AEC9CB;
+}
+.header > a {
+	color: black;
+}
+.menu {
+    display: flex;
+	list-style: none;
+	gap:55px;
+	margin-right:  200px;
+    
+    
+    
+}
+.bnkar > h1{
+	font-family: 'Noto Sans HK', sans-serif;
+}
+
+
+.menu > li > a {
+	color:black;
+}
+
+.bnkar{
+	width: 100%;
+	height: 900px;
+	background-image: url(../images/arajin.png);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.bnkar > h1{
+	font-family: 'Signika', sans-serif;
+}
+.bnkar > h6 {
+	font-family: 'Urbanist', sans-serif;
+}
+.fon2 > h1 {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.fonnkar{
+	color: white;
+	font-size: 40px;
+	padding-top: 401px;
+	margin-left: 550px;
+	font-size: 70px;
+	letter-spacing: 20px;
+
+}
+.film{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.thea {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.comme{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.fonnkar1{
+	margin-left:830px;
+	font-size: 31px;
+	letter-spacing: 3px;
+	color: white;
+	padding-top:23px;
+}
+.fon2 {
+	width: 100%;
+	height: 558px;
+    background: turquoise;
+    background-image: url(../images/nkar1.png);
+    /*background-attachment: fixed;*/
+    
+     background-repeat: no-repeat;
+
+}
+h1 {
+	font-size: 41px;
+	letter-spacing: 6px;
+	text-align: center;
+
+	
+}
+ h6 {
+	margin-left: 1010px;
+	letter-spacing: 3px;
+	font-size: 15px;
+	padding-top: 25px;
+ }
+
+	
+.button1 {
+	background: black;
+	width: 108px;
+	height: 35px;
+	margin-left: 1010px;
+	color: white;
+	margin-top: 30px;
+	cursor: pointer;
+
+}
+.button1:hover{
+	background: turquoise;
+	color: black;
+	transition: 0.7s;
+}
+.fonn3{
+	background-image: url(../images/ekrord.png);
+	width: 100%;
+	height: 1000px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.film{
+	width: 800px;
+	height: 130px;
+	background:#AFEEEE;
+	font-size: 47px;
+	margin-left: 550px;
+	border: 10px solid black;
+	letter-spacing: 5px;
+	margin-top: 293px;
+	cursor: pointer;
+}
+.film:hover {
+	background: white;
+	transition: 0.7s;
+
+
+}
+.thea {
+	width: 800px;
+	height: 130px;
+	background: #40E0D0;
+	border: 10px solid black;
+	margin-left: 550px;
+	margin-top: 70px;
+	letter-spacing: 5px;
+	font-size: 47px;
+	cursor: pointer;
+}
+.thea:hover {
+	background: white;
+	transition: 0.7s;
+}
+.comme {
+
+    width: 800px;
+	height: 130px;
+	background: #008B8B;
+	border: 10px solid black;
+	margin-left: 550px;
+	margin-top: 70px;
+	letter-spacing: 5px;
+	font-size: 47px;
+	cursor: pointer;
+
+}
+.comme:hover {
+	background: white;
+	transition: 0.7s;
+}
+.verj1{
+	width: 100%;
+	height: 810px;
+	background: turquoise;
+}
+.verj2botton{
+	width: 800px;
+	height: 120px;
+	background: turquoise;
+	border: 10px solid black;
+    margin-left: 550px;
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 7px;
+    font-size: 40px;
+    
+
+    
+}
+.verj2botton > h1{
+	
+	font-size: 40px;
+
+}
+.verjj{
+	background: white;
+	width: 100%;
+	height: 70px;
+}
+
+
+.end
+{
+	height: 800px;
+	width: 100%;
+	background: #00E3C8;
+	padding-top: 150px;
+	
+}
+.get
+{
+	height: 135px;
+	width: 900px;
+	background: #00E3C8;
+	border: 10px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 380px;
+	letter-spacing: 7px;
+	font-size: 25px;
+	display: flex;
+	
+}
+
+.contact
+{
+	display: flex;
+}
+.contact a 
+{
+	color: black;
+
+}
+.table
+{
+	display: flex;
+	justify-content: center;
+	margin-top:80px;
+}
+table
+{
+	text-align: left;
+}
+th {
+	font-size: 30px;
+	
+}
+table td > a 
+{
+	color: black;
+}
+table input 
+{
+	width: 220px;
+	height: 35px;
+	background:#00E3C8;
+	border: 1px solid black;
+}
+@media screen and (max-width: 320px){
+	.headerTop{
+		width: 100%;
+		background: whitesmoke;
+		position: absolute;
+		top: 75px;
+		right: 0;
+		z-index: 2;
+
+	}
+	.menu{
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
